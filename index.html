@@ -6,6 +6,14 @@
     <title>On Boarding</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="welcome.html">Welcome</a></li>
+            <li><a href="getting-started.html">Getting Started</a></li>
+            <li><a href="onboarding.html">On Boarding</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
     <h1>Welcome To Learning System</h1>
     <p>We are excited to have you on board! This system is designed to help you learn and grow.</p>
     <p>To get started, please follow the instructions provided in the onboarding guide.</p> 
@@ -26,6 +34,32 @@
     }
     p {
         line-height: 1.6;
+    }
+    nav {
+        background-color: #2c3e50;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    nav ul li a {
+        color: #ecf0f1;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+        nav ul li {
+            display: block;
+            margin-bottom: 10px;
+        }
     }
 </style>
 </html>
