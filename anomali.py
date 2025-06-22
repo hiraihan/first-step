@@ -1,0 +1,2 @@
+x="telek"
+print (x)
